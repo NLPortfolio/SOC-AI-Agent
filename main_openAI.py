@@ -5,7 +5,7 @@ import json
 
 from openai import OpenAI
 
-openai_client = OpenAI(api_key="YOUR_API_KEY_HERE")
+openai_client = OpenAI(api_key=_keys.OPENAI_API_KEY)
 
 prompt = "Describe an Apple in Json format with the following keys: name, color, taste, and origin."
 
